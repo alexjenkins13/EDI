@@ -9,7 +9,7 @@ function setup() {
 
 function draw() {
   clear();
-  var margin = 30;
+  var margin = 15;
   translate(margin,margin);
    
   var num = 3;//problem with this
