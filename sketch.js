@@ -4,7 +4,7 @@ function setup() {
   strokeWeight(2);
   stroke(200,200,255); //rgb --> currently light blue
   noFill();
-  frameRate(2);
+  frameRate(0.5);
 }
 
 function draw() {
@@ -43,6 +43,6 @@ function draw() {
   // quad(200,0, 400,0, 400,200, 200,200);
   // quad(0,200, 200,200, 200,400, 0,400);
   //  quad(200,200, 400,200, 400,400, 200,400);
-//noLoop();
+noLoop();
   
 }
